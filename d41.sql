@@ -10,3 +10,5 @@ SET  stock = 2
 WHERE price > 500;
 DELETE FROM onlinebooks
 WHERE id = 3;
+DELETE FROM `newbooks` 
+WHERE title = 'Ikigai'

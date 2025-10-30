@@ -19,3 +19,5 @@ FROM mobiles;
 SELECT price FROM mobiles
 ORDER BY price DESC
 LIMIT 2;
+SELECT AVG(price) 
+FROM books;
